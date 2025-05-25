@@ -1,7 +1,7 @@
-// Mostrar contatos salvos ao carregar a página
+
 document.addEventListener("DOMContentLoaded", mostrarContatos);
 
-// Lidar com envio do formulário
+
 document.getElementById("form").addEventListener("submit", function(event) {
   event.preventDefault();
 
@@ -23,7 +23,7 @@ document.getElementById("form").addEventListener("submit", function(event) {
   mostrarContatos();
 });
 
-// Função para exibir os contatos na tela
+
 function mostrarContatos() {
   const lista = document.getElementById("listaContatos");
   lista.innerHTML = "";
